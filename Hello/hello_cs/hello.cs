@@ -22,8 +22,6 @@ namespace hello_cs
                         var centerDepth = depthFrame.GetDistance(width / 2, height / 2);
 
                         Console.WriteLine($"屏幕中心点距离{centerDepth}米");
-
-                        Console.SetCursorPosition(0, 0);
                     }
                 }
 
